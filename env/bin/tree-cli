@@ -1,0 +1,10 @@
+#!/home/solo/git/13_cinemas/env/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'Tree==v0.2.4','console_scripts','tree-cli'
+__requires__ = 'Tree==v0.2.4'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('Tree==v0.2.4', 'console_scripts', 'tree-cli')()
+    )
